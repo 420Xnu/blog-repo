@@ -1,53 +1,53 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Next Project"
-  content: "Nextplate is a free starter template built with Next and TailwindCSS, providing everything you need to jumpstart your Next project and save valuable time."
+  title: "Dive into the Digital Realm of Vatsalya Vigya Verma"
+  content: "From Web Development and DevOps to Docker and Reverse Engineering, join me on a tech voyage that touches all corners of the IT universe."
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/nextplate"
+    label: "Explore My Blog"
+    link: "/blog"
 
 # Features
 features:
-  - title: "What's Included in Nextplate"
-    image: "/images/service-1.png"
-    content: "Nextplate is a comprehensive starter template that includes everything you need to get started with your Next project. What's Included in Nextplate"
+  - title: "Self-hosting Dockerized Applications"
+    image: "/images/docker.png"
+    content: "Discover the world of Docker, where I craft tailored self-hosted solutions ensuring optimal privacy and personalization."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Next and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
-    button:
-      enable: false
-      label: "Get Started Now"
-      link: "#"
-
-  - title: "Discover the Key Features Of Next"
-    image: "/images/service-2.png"
-    content: "Next is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
-    bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Personalized, private hosting solutions"
+      - "Optimized for performance and scalability"
+      - "Insights into container orchestration and management"
+      - "Secure and reliable deployments"
+      - "Real-world use-cases and scenarios discussed"
     button:
       enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/nextplate"
+      label: "Dive into Docker"
+      link: "/categories/docker"
 
-  - title: "The Top Reasons to Choose Next for Your Next Project"
-    image: "/images/service-3.png"
-    content: "With Next, you can build modern and content-focused websites without sacrificing performance or ease of use."
+  - title: "Embracing the Go (Golang) Universe"
+    image: "/images/golang.png"
+    content: "Get a grip on Go, a powerful programming language that's taking the software world by storm. Here's why I love it:"
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Next a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Simplicity combined with power"
+      - "Concurrent programming made easy"
+      - "Extensive standard libraries"
+      - "Cross-platform and performant applications"
     button:
-      enable: false
-      label: ""
-      link: ""
+      enable: true
+      label: "Discover Golang"
+      link: "/categories/golang"
+
+  - title: "DevOps: The Ansible and k3s Way"
+    image: "/images/proxmoxansible.png"
+    content: "DevOps is more than just a buzzword. With Ansible and k3s, I automate, deploy, and manage infrastructure effortlessly."
+    bulletpoints:
+      - "Infrastructure as Code (IaC) with Ansible"
+      - "Lightweight Kubernetes with k3s"
+      - "Automating complex system tasks"
+      - "Scalable and maintainable IT setups"
+    button:
+      enable: true
+      label: "Explore DevOps"
+      link: "/categories/devops"
 ---

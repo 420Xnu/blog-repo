@@ -1,15 +1,15 @@
 {
   "site": {
-    "title": "Nextplate",
-    "base_url": "https://nextplate.netlify.app",
+    "title": "Vatsalya Vigya Verma",
+    "base_url": "https://vatsalyavigyaverma.com",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_darkmode": "/images/logo-darkmode.png",
+    "favicon": "/images/sig.jpg",
+    "logo": "/images/sig.jpg",
+    "logo_darkmode": "/images/sig.jpg",
     "logo_width": "150",
     "logo_height": "27",
-    "logo_text": "Nextplate"
+    "logo_text": "vatsalyavigyaverma"
   },
 
   "settings": {
@@ -24,24 +24,12 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio)"
+    "copyright": "Edited with ❤️ by Vatsalya Vigya Verma. All Rights Reserved. © 2023."
   },
 
   "navigation_button": {
     "enable": true,
-    "label": "Get Started",
-    "link": "https://github.com/zeon-studio/nextplate"
-  },
-
-  "disqus": {
-    "enable": true,
-    "shortname": "themefisher-template",
-    "settings": {}
-  },
-
-  "metadata": {
-    "meta_author": "Themefisher",
-    "meta_image": "/images/og-image.png",
-    "meta_description": "Next Boilerplate"
+    "label": "Fork me on Github",
+    "link": "https://github.com/420Xnu/blog"
   }
 }
