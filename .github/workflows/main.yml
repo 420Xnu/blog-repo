@@ -47,7 +47,6 @@ jobs:
           mkdir ~/.ssh
           touch ~/.ssh/know_hosts
           echo "${{ secrets.KEYSCAN_OUTPUT }}" >> ~/.ssh/known_hosts
-          scp -i private_key docker-compose.yml ${{ secrets.VM_USER }}@${{ secrets.VM_IP }}:/blog/docker-compose.yml
           ssh -i private_key ${{ secrets.VM_USER }}@${{ secrets.VM_IP }} "docker pull ${{ secrets.DOCKERHUB_USERNAME }}/${{ secrets.IMAGE_NAME }}:latest && docker-compose -f /blog/docker-compose.yml up -d"
           
       - name: Cleanup SSH key
