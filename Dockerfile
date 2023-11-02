@@ -26,8 +26,8 @@ COPY . .
 # Learn more here: https://nextjs.org/telemetry
 # Uncomment the following line in case you want to disable telemetry during the build.
 # ENV NEXT_TELEMETRY_DISABLED 1
-
-RUN yarn build
+RUN yarn install
+RUN yarn build --verbose
 
 # If using npm comment out above and use below instead
 # RUN npm run build
