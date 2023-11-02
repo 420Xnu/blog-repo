@@ -22,8 +22,7 @@ jobs:
 
     - name: Build and Push Docker image
       run: |
-        docker build --no-cache 
-        ${{ secrets.DOCKERHUB_USERNAME }}/${{ secrets.IMAGE_NAME }} .
+        docker build --no-cache ${{ secrets.DOCKERHUB_USERNAME }}/${{ secrets.IMAGE_NAME }} .
         docker push ${{ secrets.DOCKERHUB_USERNAME }}/${{ secrets.IMAGE_NAME }}:latest
 
   deploy:
