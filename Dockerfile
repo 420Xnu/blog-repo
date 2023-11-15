@@ -29,7 +29,7 @@ ENV NEXT_TELEMETRY_DISABLED 1
 # RUN yarn install
 # RUN yarn build
 # lets test with bun 
-RUN npm install -g bun
+RUN npm i @oven/bun-linux-aarch64
 RUN bun install
 RUN bun run build
 # RUN npm install
