@@ -35,7 +35,7 @@ jobs:
   deploy:
     name: Deploy to VM
     needs: build_and_push
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
       - name: Set up SSH key
