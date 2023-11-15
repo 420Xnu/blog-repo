@@ -28,8 +28,12 @@ COPY . .
 ENV NEXT_TELEMETRY_DISABLED 1
 # RUN yarn install
 # RUN yarn build
-RUN npm install
-RUN npm run build
+# lets test with bun 
+RUN curl -fsSL https://bun.sh/install | bash
+RUN ~/.bin/bun install
+RUN ~/.bin/bun run build
+# RUN npm install
+# RUN npm run build
 # If using npm comment out above and use below instead
 # RUN npm run build
 
